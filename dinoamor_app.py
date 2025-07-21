@@ -46,4 +46,5 @@ if emoji:
     elif "🌙" in emoji and "💋" in emoji:
         st.write("Esta noche... te beso en sueños. 🌙💋")
     elif "👑" in emoji:
-        st.write("La reina del código acaba de entr
+     st.write("La reina del código acaba de entrar 👑✨")
+
