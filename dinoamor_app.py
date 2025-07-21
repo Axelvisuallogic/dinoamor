@@ -27,4 +27,4 @@ if emoji:
         st.write("Este emoji no está en el diccionario... pero quizás lo añado solo para ti 😉")
 
 st.markdown("---")
-st.markdown("✨ Hecho por Aggi, solo para Sol.")
+st.markdown("✨ Hecho por 🦁💞🦖✨")
