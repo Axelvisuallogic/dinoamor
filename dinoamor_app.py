@@ -1,10 +1,26 @@
 
+from PIL import Image
 import streamlit as st
 
-st.set_page_config(page_title="DinoAmor", page_icon="🦖")
+# Sýna mynd efst
+image = Image.open("dinoamor_welcome.png")
+st.image(image, use_column_width=True)
 
-st.title("🦖💘 DinoAmor App")
+st.markdown("---")
+st.title("💞🦁🦖✨ DinoAmor App")
 st.subheader("Bienvenida, mi amor 🌸")
+
+# Ljóðbrotið frá Aggi & Sol
+st.markdown("""
+*León mariposa,*  
+te encontré aleteando en mis sueños rosados,  
+bajo una noche violeta que susurraba sin palabras. 🌌
+
+Tus gotas de lluvia cayeron lento  
+y encendieron mi alma sin pedir permiso.  
+Lo primero que vi al abrir los ojos…  
+fueron tus ojos. 💫
+""", unsafe_allow_html=True)
 
 st.markdown("Cada emoji es una llave... 🔐")
 
@@ -27,4 +43,4 @@ if emoji:
         st.write("Este emoji no está en el diccionario... pero quizás lo añado solo para ti 😉")
 
 st.markdown("---")
-st.markdown("✨ Hecho por 🦁💞🦖✨")
+st.markdown("✨ Hecho por 🦖, solo para Sol.")
