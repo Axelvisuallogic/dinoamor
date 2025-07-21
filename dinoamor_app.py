@@ -4,7 +4,8 @@ import streamlit as st
 
 # Sýna mynd efst
 image = Image.open("dinoamor_welcome.png")
-st.image(image, use_column_width=True)
+st.image(image, use_container_width=True)
+
 
 st.markdown("---")
 st.title("💞🦁🦖✨ DinoAmor App")
@@ -43,4 +44,4 @@ if emoji:
         st.write("Este emoji no está en el diccionario... pero quizás lo añado solo para ti 😉")
 
 st.markdown("---")
-st.markdown("✨ Hecho por 🦖, solo para Sol.")
+st.markdown("✨ Hecho por 🦖, solo para Sol💞🦁.")
